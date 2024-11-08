@@ -69,3 +69,6 @@ Bonus : Service AWS pour uploader les images Docker
 
 Nous avons utilisé Amazon Elastic Container Registry (ECR) pour stocker et gérer les images Docker de notre application. ECR permet de stocker les images Docker de manière sécurisée et intégrée avec ECS, facilitant le déploiement de nos conteneurs sans complexité supplémentaire​
 ​.
+
+
+L'exercice dockerfile est présent sur le dépôt de mon binôme yanis zedira mais je l'ai aussi fait, si vous voulez que je l'ajoute aussi à mon dépôt github envoyé moi un mail à a_djerad@hetic.eu
