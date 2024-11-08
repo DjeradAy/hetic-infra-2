@@ -6,9 +6,7 @@ Contexte
 Nous venons de terminer le développement de notre application révolutionnaire composée de deux images Docker : un backend et un frontend. Notre objectif est de déployer cette application sur AWS en utilisant une architecture serverless et managée. Cette infrastructure doit également être déployée sur deux zones de disponibilité pour garantir une haute disponibilité et une résilience face aux désastres naturels.
 1. Sélection des composants AWS
 
-Pour déployer notre application sur AWS, nous avons sélectionné les composants suivants :
-
-    Elastic Container Service (ECS) avec Fargate : Un service managé permettant d'exécuter des conteneurs Docker sans gérer les serveurs sous-jacents. ECS avec Fargate offre une scalabilité automatique et simplifie la gestion des conteneurs​
+Pour déployer notre application sur AWS, nous avons sélectionné les composants suivants : Elastic Container Service (ECS) avec Fargate : Un service managé permettant d'exécuter des conteneurs Docker sans gérer les serveurs sous-jacents. ECS avec Fargate offre une scalabilité automatique et simplifie la gestion des conteneurs​
 
 
 Application Load Balancer (ALB) : Agit comme un reverse proxy pour répartir le trafic entre les instances de conteneurs déployées dans plusieurs zones de disponibilité (AZ). Le ALB permet d'assurer la haute disponibilité en redirigeant le trafic vers une zone fonctionnelle en cas de panne de l'autre​
